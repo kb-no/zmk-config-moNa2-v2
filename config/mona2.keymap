@@ -142,10 +142,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                    &kp K_MUTE         &kp LESS_THAN   &kp C      &kp GREATER_THAN  &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &kp C_VOLUME_UP    &kp LEFT_ARROW  &kp SPACE  &kp RIGHT_ARROW   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_VOLUME_DOWN  &trans          &trans     &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
