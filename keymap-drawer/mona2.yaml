@@ -42,7 +42,7 @@ layers:
   - {t: '&to_layer_0 ENTER', h: '1'}
   - {t: '&to_layer_0 LANG1', h: '3'}
   - {t: '&to_layer_0 LANG2', h: '4'}
-  - {t: ▽, type: trans}
+  - RIGHT ALT
   '1':
   - F1
   - F2
