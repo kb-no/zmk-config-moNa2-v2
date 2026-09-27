@@ -37,7 +37,7 @@ layers:
   - TAB
   - LEFT CONTROL
   - LEFT ALT
-  - BACKSPACE
+  - {t: BACKSPACE, s: DELETE}
   - {t: '&to_layer_0 SPACE', h: '2'}
   - {t: '&to_layer_0 ENTER', h: '1'}
   - {t: '&to_layer_0 LANG1', h: '3'}
