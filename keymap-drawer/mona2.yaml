@@ -116,8 +116,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - AltGr+8
   - AltGr+9
+  - AltGr+0
   - \
   - _
   - {t: ▽, type: trans}
