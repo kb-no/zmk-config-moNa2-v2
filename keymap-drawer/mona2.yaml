@@ -37,7 +37,7 @@ layers:
   - TAB
   - LEFT CONTROL
   - LEFT ALT
-  - {t: BACKSPACE, s: DELETE}
+  - '&bspc_del'
   - {t: '&to_layer_0 SPACE', h: '2'}
   - {t: '&to_layer_0 ENTER', h: '1'}
   - {t: '&to_layer_0 LANG1', h: '3'}
@@ -265,9 +265,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - MUTE
-  - <
+  - C
   - UP ARROW
-  - '>'
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -288,9 +288,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - VOLUME DOWN
-  - C
+  - <
   - DOWN ARROW
-  - {t: ▽, type: trans}
+  - '>'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
