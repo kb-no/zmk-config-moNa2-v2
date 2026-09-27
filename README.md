@@ -13,7 +13,7 @@
 | キー配置 | KeymapEditor で作り直し（下の「レイヤー」） | `config/mona2.keymap` |
 | トラックボールの向き | COROPIT 版の向き（`invert-x` / `invert-y` を有効） | `boards/shields/mona2/mona2_r.overlay` |
 | オートマウス | ボールを動かすとレイヤー5 に入る。最後に動かしてから10秒たつか、マウス用以外のキーを押すと元に戻る | `mona2.dtsi`（`zip_temp_layer 5 10000`）、`mona2_r.overlay`（`excluded-positions`） |
-| スクロール | レイヤー6 の間、ボールでスクロール（縦・横、速さ 1/15） | `mona2_r.overlay`（`scroller`） |
+| スクロール | レイヤー6 の間、ボールでスクロール（縦・横、速さ 1/30） | `mona2_r.overlay`（`scroller`） |
 | ⇧ + ⌫ で Delete | mod-morph の `&bspc_del` | `boards/shields/mona2/mona2.dtsi` |
 | レイヤー4 | 右手親指の英数とかなの同時押しでだけ入る | `config/mona2.keymap`（同時押し `layer4`） |
 
