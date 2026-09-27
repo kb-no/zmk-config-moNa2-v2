@@ -68,8 +68,9 @@
     status = "okay";
     device = <&trackball_central>;
 
+    // レイヤー6（- 長押し）の間だけ、ボールでスクロールする
     scroller {
-        layers = <3>;
+        layers = <6>;
         input-processors = 
             // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,        //X軸とY軸の入れ替え
             <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,       //X軸反転
