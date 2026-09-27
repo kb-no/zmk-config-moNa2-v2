@@ -40,8 +40,8 @@ layers:
   - '&bspc_del'
   - {t: SPACE, h: '2'}
   - {t: ENTER, h: '1'}
-  - {t: LANG1, h: '3'}
   - LANG2
+  - {t: LANG1, h: '3'}
   - RIGHT ALT
   '1':
   - F1
@@ -111,7 +111,7 @@ layers:
   - $
   - '%'
   - '&'
-  - INT YEN
+  - Alt+Y
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -169,8 +169,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   '4':
   - {t: ▽, type: trans}
