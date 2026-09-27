@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - {t: '&to_layer_0 P', h: '6'}
+  - {t: P, h: '6'}
   - {t: A, h: LEFT SHIFT}
   - S
   - D
@@ -38,10 +38,10 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - '&bspc_del'
-  - {t: '&to_layer_0 SPACE', h: '2'}
-  - {t: '&to_layer_0 ENTER', h: '1'}
-  - {t: '&to_layer_0 LANG1', h: '3'}
-  - {t: '&to_layer_0 LANG2', h: '4'}
+  - {t: SPACE, h: '2'}
+  - {t: ENTER, h: '1'}
+  - {t: LANG1, h: '3'}
+  - {t: LANG2, h: '4'}
   - RIGHT ALT
   '1':
   - F1
