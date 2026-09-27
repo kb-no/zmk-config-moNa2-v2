@@ -41,7 +41,7 @@ layers:
   - {t: SPACE, h: '2'}
   - {t: ENTER, h: '1'}
   - {t: LANG1, h: '3'}
-  - {t: LANG2, h: '4'}
+  - LANG2
   - RIGHT ALT
   '1':
   - F1
@@ -212,7 +212,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {type: held}
   - BT CLR ALL
   '5':
@@ -302,7 +302,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [39, 38]
-  k: {t: ESC, h: '4'}
+- p: [39, 40]
+  k: '4'
 - p: [11, 12]
   k: TAB
