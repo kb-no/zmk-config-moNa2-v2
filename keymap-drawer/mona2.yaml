@@ -49,7 +49,7 @@ layers:
   - F3
   - F4
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
   - '7'
   - '8'
   - '9'
@@ -60,7 +60,7 @@ layers:
   - F8
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '='
+  - .
   - '4'
   - '5'
   - '6'
