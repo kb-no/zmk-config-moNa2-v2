@@ -1,5 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <dt-bindings/zmk/keys.h>
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 #include <physical_layouts.dtsi>
@@ -115,8 +114,14 @@
         triggers-per-rotation = <10>;
     };
 
-    // ⇧ と一緒に押すと Delete になる ⌫（キーマップでは &bspc_del）
-    // KeymapEditor が保存時にこの定義を消してしまうため、キーマップではなくここに置く
+};
+
+// ⇧ と一緒に押すと Delete になる ⌫（キーマップでは &bspc_del）
+// KeymapEditor が保存時にこの定義を消してしまうため、キーマップではなくここに置く。
+// keys.h の RC(キー) は上の配線表の RC(行,列) と名前がぶつかるので、配線表より後で読み込む。
+#include <dt-bindings/zmk/keys.h>
+
+/ {
     behaviors {
         bspc_del: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
@@ -125,5 +130,4 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
-
 };
