@@ -10,8 +10,8 @@ layers:
   - U
   - I
   - O
-  - P
-  - A
+  - {t: '&to_layer_0 P', h: '6'}
+  - {t: A, h: LEFT SHIFT}
   - S
   - D
   - F
@@ -21,8 +21,8 @@ layers:
   - J
   - K
   - L
-  - {t: '&to_layer_0 MINUS', h: '6'}
-  - Z
+  - {t: '-', h: RIGHT SHIFT}
+  - {t: Z, h: LEFT GUI}
   - X
   - C
   - V
@@ -33,16 +33,16 @@ layers:
   - M
   - ','
   - .
-  - RIGHT SHIFT
+  - RIGHT GUI
   - TAB
+  - LEFT CONTROL
   - LEFT ALT
-  - LEFT GUI
   - BACKSPACE
   - {t: '&to_layer_0 SPACE', h: '2'}
   - {t: '&to_layer_0 ENTER', h: '1'}
   - {t: '&to_layer_0 LANG1', h: '3'}
   - {t: '&to_layer_0 LANG2', h: '4'}
-  - RIGHT GUI
+  - {t: ▽, type: trans}
   '1':
   - F1
   - F2
@@ -116,8 +116,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - <
-  - '>'
+  - AltGr+8
+  - AltGr+9
   - \
   - _
   - {t: ▽, type: trans}
@@ -141,8 +141,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+TAB
-  - Alt+TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -268,7 +268,7 @@ layers:
   - <
   - UP ARROW
   - '>'
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -279,7 +279,7 @@ layers:
   - LEFT ARROW
   - SPACE
   - RIGHT ARROW
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
