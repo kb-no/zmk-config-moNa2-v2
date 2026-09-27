@@ -111,7 +111,7 @@ layers:
   - $
   - '%'
   - '&'
-  - Alt+Y
+  - Alt+\
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
