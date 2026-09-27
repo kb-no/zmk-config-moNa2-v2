@@ -98,10 +98,10 @@
 
         layer_2 {
             bindings = <
-&kp SQT          &kp DOUBLE_QUOTES  &kp GRAVE      &kp CARET    &trans                    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE              &kp COLON
-&kp EXCLAMATION  &kp QUESTION       &kp AT_SIGN    &kp HASH     &trans            &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH             &kp SEMICOLON
-&kp DOLLAR       &kp PERCENT        &kp AMPERSAND  &kp LA(BACKSLASH)  &trans  &trans    &trans  &trans  &kp RA(NUMBER_9)      &kp RA(NUMBER_0)       &kp BACKSLASH         &kp UNDERSCORE
-&trans           &trans             &trans         &trans       &trans  &trans    &trans  &trans                                                                     &trans
+&kp SQT          &kp DOUBLE_QUOTES  &kp GRAVE      &kp CARET          &trans                    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE       &kp COLON
+&kp EXCLAMATION  &kp QUESTION       &kp AT_SIGN    &kp HASH           &trans            &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH      &kp SEMICOLON
+&kp DOLLAR       &kp PERCENT        &kp AMPERSAND  &kp LA(BACKSLASH)  &trans  &trans    &trans  &trans  &kp RA(NUMBER_9)      &kp RA(NUMBER_0)       &kp BACKSLASH  &kp UNDERSCORE
+&trans           &trans             &trans         &trans             &trans  &trans    &trans  &trans                                                              &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -109,10 +109,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans                  &trans              &trans                   &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &kp RC(RG(LEFT_ARROW))  &kp RC(UP_ARROW)    &kp RC(RG(RIGHT_ARROW))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp RA(RG(LEFT_ARROW))  &kp RC(DOWN_ARROW)  &kp RA(RG(RIGHT_ARROW))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                                                       &trans
+&trans         &trans                  &kp LA(LG(UP_ARROW))    &trans                   &trans                    &trans  &kp LC(LG(LEFT_ARROW))  &kp LC(UP_ARROW)    &kp LC(LG(RIGHT_ARROW))  &trans
+&trans         &kp LA(LG(LEFT_ARROW))  &kp LA(LG(F))           &kp LA(LG(RIGHT_ARROW))  &trans            &trans  &trans  &kp LC(LEFT_ARROW)      &trans              &kp RC(RIGHT_ARROW)      &trans
+&kp LA(LG(C))  &trans                  &kp LA(LG(DOWN_ARROW))  &trans                   &trans  &trans    &trans  &trans  &kp LC(LA(LEFT_ARROW))  &kp RC(DOWN_ARROW)  &kp LC(LA(RIGHT_ARROW))  &trans
+&trans         &trans                  &trans                  &trans                   &trans  &trans    &trans  &trans                                                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
