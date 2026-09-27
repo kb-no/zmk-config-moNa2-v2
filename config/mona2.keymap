@@ -69,6 +69,14 @@
 
             tap-ms = <20>;
         };
+
+        bspc_del: backspace_delete {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
+
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
@@ -79,7 +87,7 @@
 &kp Q             &kp W             &kp E         &kp R          &kp T                                                                     &kp Y                   &kp U  &kp I      &kp O    &lt_to_layer_0 6 P
 &mt LEFT_SHIFT A  &kp S             &kp D         &kp F          &kp G                                             &trans                  &kp H                   &kp J  &kp K      &kp L    &mt RIGHT_SHIFT MINUS
 &mt LEFT_GUI Z    &kp X             &kp C         &kp V          &kp B                   &kp ESCAPE                &kp CAPSLOCK            &kp N                   &kp M  &kp COMMA  &kp DOT  &kp RIGHT_GUI
-&kp TAB           &kp LEFT_CONTROL  &kp LEFT_ALT  &kp BACKSPACE  &lt_to_layer_0 2 SPACE  &lt_to_layer_0 1 ENTER    &lt_to_layer_0 3 LANG1  &lt_to_layer_0 4 LANG2                             &trans
+&kp TAB           &kp LEFT_CONTROL  &kp LEFT_ALT  &bspc_del      &lt_to_layer_0 2 SPACE  &lt_to_layer_0 1 ENTER    &lt_to_layer_0 3 LANG1  &lt_to_layer_0 4 LANG2                             &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
