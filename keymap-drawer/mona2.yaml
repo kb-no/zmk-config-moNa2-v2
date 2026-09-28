@@ -10,7 +10,7 @@ layers:
   - W
   - R
   - Y
-  - {t: P, h: toggle}
+  - P
   - E
   - I
   - A
