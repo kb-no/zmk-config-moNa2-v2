@@ -10,8 +10,8 @@ layers:
   - W
   - R
   - Y
-  - {t: P, h: '6'}
-  - {t: E, h: LEFT SHIFT}
+  - {t: P, h: toggle}
+  - E
   - I
   - A
   - O
@@ -21,8 +21,8 @@ layers:
   - T
   - N
   - S
-  - {t: H, h: RIGHT SHIFT}
-  - {t: Z, h: LEFT CONTROL}
+  - H
+  - Z
   - X
   - C
   - V
@@ -33,11 +33,11 @@ layers:
   - D
   - M
   - J
-  - {t: B, h: RIGHT CONTROL}
+  - B
   - LEFT GUI
   - LEFT ALT
   - LEFT CONTROL
-  - LANG2
+  - {t: LANG2, h: LSHIFT}
   - '&bspc_del'
   - {t: SPACE, h: '3'}
   - {t: ENTER, h: '1'}
@@ -268,7 +268,7 @@ layers:
   - C
   - UP ARROW
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+LEFT ARROW
   - {t: ▽, type: trans}
