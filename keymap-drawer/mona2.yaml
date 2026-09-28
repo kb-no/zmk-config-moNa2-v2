@@ -35,14 +35,14 @@ layers:
   - .
   - RIGHT GUI
   - TAB
-  - LEFT CONTROL
   - LEFT ALT
+  - LEFT CONTROL
   - '&bspc_del'
   - {t: SPACE, h: '2'}
   - {t: ENTER, h: '1'}
   - {t: LANG2, h: '3'}
   - LANG1
-  - RIGHT ALT
+  - RIGHT CONTROL
   '1':
   - F1
   - F2
@@ -130,7 +130,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
-  - {t: ▽, type: trans}
+  - Gui+Ctl+Q
   - {t: ▽, type: trans}
   - Alt+Gui+UP ARROW
   - {t: ▽, type: trans}
