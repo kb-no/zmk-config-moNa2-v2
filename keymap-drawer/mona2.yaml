@@ -236,7 +236,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - Gui++
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -248,7 +248,7 @@ layers:
   - '&mkp MB4'
   - {t: ▽, type: trans}
   - '&mkp MB5'
-  - {t: ▽, type: trans}
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
