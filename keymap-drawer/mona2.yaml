@@ -38,7 +38,7 @@ layers:
   - LEFT ALT
   - LEFT CONTROL
   - LANG2
-  - BACKSPACE
+  - '&bspc_del'
   - {t: SPACE, h: '3'}
   - {t: ENTER, h: '1'}
   - {t: LANG1, h: '2'}
