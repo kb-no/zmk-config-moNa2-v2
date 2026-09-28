@@ -248,7 +248,7 @@ layers:
   - '&mkp MB4'
   - {t: ▽, type: trans}
   - '&mkp MB5'
-  - '-'
+  - Gui+-
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
