@@ -261,7 +261,7 @@ layers:
   '6':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+UP ARROW
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - MUTE
@@ -269,11 +269,11 @@ layers:
   - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Ctl+A
+  - LEFT ARROW
   - {t: ▽, type: trans}
-  - Sft+LEFT ARROW
-  - {t: ▽, type: trans}
-  - Sft+RIGHT ARROW
-  - {t: ▽, type: trans}
+  - RIGHT ARROW
+  - Ctl+E
   - {t: ▽, type: trans}
   - VOLUME UP
   - LEFT ARROW
@@ -282,7 +282,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+DOWN ARROW
+  - DOWN ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -295,7 +295,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
