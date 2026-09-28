@@ -16,7 +16,7 @@ layers:
   - A
   - O
   - '-'
-  - {t: ▽, type: trans}
+  - RIGHT GUI
   - K
   - T
   - N
