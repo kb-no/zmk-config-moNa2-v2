@@ -2,37 +2,37 @@ layout: {zmk_keyboard: mona2}
 layers:
   default:
   - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - {t: P, h: '6'}
-  - {t: A, h: LEFT SHIFT}
-  - S
-  - D
-  - F
-  - G
-  - {t: ▽, type: trans}
-  - H
-  - J
-  - K
   - L
-  - {t: '-', h: RIGHT SHIFT}
+  - U
+  - ','
+  - .
+  - F
+  - W
+  - R
+  - Y
+  - {t: P, h: '6'}
+  - {t: E, h: LEFT SHIFT}
+  - I
+  - A
+  - O
+  - '-'
+  - B
+  - K
+  - T
+  - N
+  - S
+  - {t: H, h: RIGHT SHIFT}
   - {t: Z, h: LEFT GUI}
   - X
   - C
   - V
-  - B
+  - ;
   - ESCAPE
   - CAPSLOCK
-  - N
+  - G
+  - D
   - M
-  - ','
-  - .
+  - J
   - RIGHT GUI
   - TAB
   - LEFT ALT
@@ -304,5 +304,3 @@ layers:
 combos:
 - p: [39, 40]
   k: '4'
-- p: [11, 12]
-  k: TAB
