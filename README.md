@@ -11,24 +11,24 @@
 | 項目 | 内容 | 場所 |
 |---|---|---|
 | キー配置 | KeymapEditor で作り直し（下の「レイヤー」） | `config/mona2.keymap` |
-| 文字の並び | 大西配列。ただし ; の位置は Tab（; は記号レイヤーにある）。K の左隣は空き | `config/mona2.keymap`（`default_layer`） |
+| 文字の並び | 大西配列。ただし ; の位置は Tab（; は記号レイヤーにある）。K の左隣は ⌘。文字のキーには長押しの動きを付けていない（押すとすぐ文字が出る） | `config/mona2.keymap`（`default_layer`） |
 | トラックボールの向き | COROPIT 版の向き（`invert-x` / `invert-y` を有効） | `boards/shields/mona2/mona2_r.overlay` |
 | オートマウス | ボールを動かすとレイヤー5 に入る。最後に動かしてから10秒たつか、マウス用以外のキーを押すと元に戻る | `mona2.dtsi`（`zip_temp_layer 5 10000`）、`mona2_r.overlay`（`excluded-positions`） |
 | スクロール | レイヤー6 の間、ボールでスクロール（縦・横、速さ 1/30） | `mona2_r.overlay`（`scroller`） |
-| ⇧ + ⌫ で Delete | mod-morph の `&bspc_del` | `boards/shields/mona2/mona2.dtsi` |
+| ⇧ + ⌫ で Delete（今は使っていない） | mod-morph の `&bspc_del`。定義だけ残している。Delete は Mac 標準の ⌃D を使う | `boards/shields/mona2/mona2.dtsi` |
 | レイヤー4 | 右手親指の Enter とかなの同時押しでだけ入る | `config/mona2.keymap`（同時押し `layer4`） |
 
 ## レイヤー
 
 | レイヤー | 入り方 | 中身 |
 |---|---|---|
-| 0 default | ― | 文字（大西配列）。E・H の長押しで ⇧、Z・B の長押しで ⌃、⇧ + ⌫ で Delete。最下段は左手が ⌘・⌥・⌃・英数・⌫・Space、右手が Enter・かな・⌘ |
+| 0 default | ― | 文字（大西配列）。英数の長押しで ⇧。⌘ は左下と K の左隣（右下の ⌘ は軽く押すと ⌘、長押しでレイヤー6）。最下段は左手が ⌘・⌥・⌃・英数・⌫・Space、右手が Enter・かな・⌘ |
 | 1 | 右手親指の Enter を長押し | 数字（右手に電卓の並び）・F1〜F12・= + - * / . |
 | 2 | 右手親指のかなを長押し | 記号・¥・\・【】 |
 | 3 | 左手親指の Space を長押し | ウィンドウとデスクトップの操作（⌃⌘Q で画面ロック、⌃← ⌃→ でデスクトップの切り替え、⌃↑ で Mission Control など。ノブで音量） |
 | 4 | 右手親指の Enter とかなを同時に長押し | Bluetooth の切り替えと消去、書き込みモード |
 | 5 MOUSE | ボールを動かす（自動） | T で左、S で右、N で中クリック。D で戻る、J で進む。W で縮小（⌘⇧-）、Y で拡大（⌘+） |
-| 6 SCROLL | P を長押し | 矢印・音量・ミュート。左手の U・I・O・C で ⇧ + 矢印（文字の選択）。ボールでスクロール |
+| 6 SCROLL | 右下の ⌘ を長押し | 矢印・音量・ミュート。左手の U・I・O・C で ⇧ + 矢印（文字の選択）。ボールでスクロール |
 
 キーの位置は、レイヤー0（大西配列）の文字で呼んでいます。同時押しは、Enter + かなでレイヤー4 の1つだけです。
 
