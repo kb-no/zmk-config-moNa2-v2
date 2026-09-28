@@ -16,33 +16,33 @@ layers:
   - A
   - O
   - '-'
-  - B
+  - {t: ▽, type: trans}
   - K
   - T
   - N
   - S
   - {t: H, h: RIGHT SHIFT}
-  - {t: Z, h: LEFT GUI}
+  - {t: Z, h: LEFT CONTROL}
   - X
   - C
   - V
-  - ;
+  - TAB
   - ESCAPE
   - CAPSLOCK
   - G
   - D
   - M
   - J
-  - RIGHT GUI
-  - TAB
+  - {t: B, h: RIGHT CONTROL}
+  - LEFT GUI
   - LEFT ALT
   - LEFT CONTROL
-  - '&bspc_del'
-  - {t: SPACE, h: '2'}
+  - LANG2
+  - BACKSPACE
+  - {t: SPACE, h: '3'}
   - {t: ENTER, h: '1'}
-  - {t: LANG2, h: '3'}
-  - LANG1
-  - RIGHT CONTROL
+  - {t: LANG1, h: '2'}
+  - RIGHT GUI
   '1':
   - F1
   - F2
@@ -82,8 +82,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - /
   '2':
@@ -124,10 +124,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
   - Gui+Ctl+Q
@@ -168,8 +168,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
