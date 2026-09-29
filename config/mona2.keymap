@@ -138,7 +138,7 @@
         SCROLL {
             bindings = <
 &trans     &trans          &kp UP_ARROW    &trans           &trans                       &kp K_MUTE         &kp C           &kp UP_ARROW    &trans            &trans
-&kp LC(A)  &kp LEFT_ARROW  &trans          &kp RIGHT_ARROW  &kp LC(E)            &trans  &kp C_VOLUME_UP    &kp LEFT_ARROW  &kp SPACE       &kp RIGHT_ARROW   &trans
+&kp LC(A)  &kp LEFT_ARROW  &kp LC(K)       &kp RIGHT_ARROW  &kp LC(E)            &trans  &kp C_VOLUME_UP    &kp LEFT_ARROW  &kp SPACE       &kp RIGHT_ARROW   &trans
 &trans     &trans          &kp DOWN_ARROW  &trans           &trans     &trans    &trans  &kp C_VOLUME_DOWN  &kp LESS_THAN   &kp DOWN_ARROW  &kp GREATER_THAN  &trans
 &trans     &trans          &trans          &kp LEFT_SHIFT   &trans     &trans    &trans  &trans                                                               &trans
             >;
