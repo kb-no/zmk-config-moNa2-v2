@@ -271,7 +271,7 @@ layers:
   - {t: ▽, type: trans}
   - Ctl+A
   - LEFT ARROW
-  - {t: ▽, type: trans}
+  - Ctl+K
   - RIGHT ARROW
   - Ctl+E
   - {t: ▽, type: trans}
