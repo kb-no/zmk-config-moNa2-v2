@@ -35,8 +35,8 @@ layers:
   - J
   - B
   - LEFT GUI
-  - LEFT ALT
   - LEFT CONTROL
+  - LEFT ALT
   - {t: LANG2, h: LSHIFT}
   - BACKSPACE
   - {t: SPACE, h: '3'}
@@ -222,7 +222,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Sft+-
+  - '&zoom_out_close'
   - {t: ▽, type: trans}
   - Gui++
   - {t: ▽, type: trans}
