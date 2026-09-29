@@ -74,7 +74,7 @@
 &kp Q         &kp L         &kp U             &kp COMMA         &kp DOT                                      &kp F        &kp W  &kp R  &kp Y  &kp P
 &kp E         &kp I         &kp A             &kp O             &kp MINUS                     &kp RIGHT_GUI  &kp K        &kp T  &kp N  &kp S  &kp H
 &kp Z         &kp X         &kp C             &kp V             &kp TAB        &kp ESCAPE     &kp CAPSLOCK   &kp G        &kp D  &kp M  &kp J  &kp B
-&kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LSHIFT LANG2  &kp BACKSPACE  &lt 3 SPACE    &lt 1 ENTER    &lt 2 LANG1                       &lt 6 RIGHT_GUI
+&kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LSHIFT LANG2  &kp BACKSPACE  &lt 3 SPACE    &lt 1 ENTER    &lt 2 LANG1                       &lt 6 RIGHT_GUI
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -126,7 +126,7 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &kp RG(LS(MINUS))  &trans    &kp RG(PLUS)  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &zoom_out_close   &trans    &kp RG(PLUS)  &trans
 &trans  &trans  &trans  &trans  &trans            &trans  &trans  &mkp MB1           &mkp MB3  &mkp MB2      &kp RIGHT_SHIFT
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB4           &trans    &mkp MB5      &kp RIGHT_GUI
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                             &trans

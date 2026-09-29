@@ -116,7 +116,7 @@
 
 };
 
-// ⇧ と一緒に押すと Delete になる ⌫（キーマップでは &bspc_del）
+// 独自の behavior: ⇧ と一緒に押すと Delete になる ⌫（&bspc_del。今の配置では使っていない）と、マウスレイヤーの縮小キー（&zoom_out_close）
 // KeymapEditor が保存時にこの定義を消してしまうため、キーマップではなくここに置く。
 // keys.h の RC(キー) は上の配線表の RC(行,列) と名前がぶつかるので、配線表より後で読み込む。
 #include <dt-bindings/zmk/keys.h>
@@ -128,6 +128,15 @@
             #binding-cells = <0>;
             bindings = <&kp BACKSPACE>, <&kp DELETE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        // マウスレイヤーの W の位置（キーマップでは &zoom_out_close）
+        // ふだんは縮小（⌘⇧-）。⌘ を押しているときは ⌘W（タブを閉じる）
+        zoom_out_close: zoom_out_close {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp RG(LS(MINUS))>, <&kp LG(W)>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
         };
     };
 };
