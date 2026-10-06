@@ -131,11 +131,11 @@
         };
 
         // マウスレイヤーの W の位置（キーマップでは &zoom_out_close）
-        // ふだんは縮小（⌘⇧-）。⌘ を押しているときは ⌘W（タブを閉じる）
+        // ふだんは縮小（⌘-）。⌘ を押しているときは ⌘W（タブを閉じる）
         zoom_out_close: zoom_out_close {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp RG(LS(MINUS))>, <&kp LG(W)>;
+            bindings = <&kp RG(MINUS)>, <&kp LG(W)>;
             mods = <(MOD_LGUI|MOD_RGUI)>;
         };
     };
